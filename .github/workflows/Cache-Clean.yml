@@ -4,7 +4,7 @@
 name: Cache-Clean
 
 on:
-  #自动清理：每周一早上4点
+  #自动清理：每周五早上4点
   schedule:
     - cron: 0 20 * * 5
   #手动清理
