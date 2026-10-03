@@ -140,3 +140,10 @@ CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray_Plugin=y
 CONFIG_PACKAGE_luci-app-passwall_Iptables_Transparent_Proxy=y
 CONFIG_PACKAGE_luci-app-passwall_Nftables_Transparent_Proxy=y
 CONFIG_PACKAGE_luci-app-cpufreq=y
+
+#vlmcsd 后端核心服务
+CONFIG_PACKAGE_vlmcsd=y
+#LuCI 图形管理界面
+CONFIG_PACKAGE_luci-app-vlmcsd=y
+#勾选简体中文语言包
+CONFIG_PACKAGE_luci-i18n-vlmcsd-zh-cn=y
